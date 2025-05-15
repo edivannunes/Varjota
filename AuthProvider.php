@@ -1,5 +1,5 @@
 <?php
-namespace Ceara;
+namespace Varjota;
 
 use MapasCulturais\App;
 use MapasCulturais\Entities;

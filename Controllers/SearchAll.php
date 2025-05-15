@@ -1,6 +1,6 @@
 <?php
 
-namespace Ceara\Controllers;
+namespace Varjota\Controllers;
 
 use DateTime;
 use MapasCulturais\App;

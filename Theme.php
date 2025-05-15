@@ -1,6 +1,6 @@
 <?php
 
-namespace Ceara;
+namespace Varjota;
 
 use MapasCulturais\Entities\OpportunityMeta;
 use \MapasCulturais\i;
