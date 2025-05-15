@@ -70,7 +70,7 @@ class Theme extends BaseV1\Theme
             'home: abbreviation' => "SECULT",
             // 'home: colabore' => "Colabore com o Mapas Culturais",
             //'home: welcome' => "O Mapa Cultural do Ceará é a plataforma livre, gratuita e colaborativa de mapeamento da Secretaria da Cultura do Estado do Ceará sobre cenário cultural cearense. Ficou mais fácil se programar para conhecer as opções culturais que as cidades cearenses oferecem: shows musicais, espetáculos teatrais, sessões de cinema, saraus, entre outras. Além de conferir a agenda de eventos, você também pode colaborar na gestão da cultura do estado: basta criar seu perfil de <a href=\"$url_search_agents\" >agente cultural</a>. A partir deste cadastro, fica mais fácil participar dos editais e programas da Secretaria e também divulgar seus <a href=\"{$url_search_events}\">eventos</a>, <a href=\"{$url_search_spaces}\">espaços</a> ou <a href=\"$url_search_projects\">projetos</a>.",
-            'home: welcome' => "Plataforma livre, colaborativa e interativa de mapeamento do cenário cultural cearense e instrumento de governança digital no aprimoramento da gestão pública, dos mecanismos de participação e da democratização do acesso às políticas culturais promovidas pela Secretaria da Cultura do Estado do Ceará.
+            'home: welcome' => "Plataforma livre, colaborativa e interativa de mapeamento do cenário cultural cearense e instrumento de governança digital no aprimoramento da gestão pública, dos mecanismos de participação e da democratização do acesso às políticas culturais promovidas pela Secretaria da Cultura da Prefeitura de Varjota.
                                 <br><br>O Mapa Cultural é uma ferramenta de comunicação visibilizando os eventos do circuito de festivais de artes e do calendário cultural, os projetos desenvolvidos e os espaços promovidos pelos agentes e instituições culturais do Ceará. É também a plataforma de acesso e execução dos editais realizados pela Secretaria.
                                 <br><br>Além de conferir a agenda de eventos, você também pode colaborar na gestão da cultura do estado: basta criar seu perfil de agente cultural. A partir do cadastro, fica mais fácil participar dos editais e programas da Secretaria e também divulgar seus eventos, espaços ou projetos.",
 
@@ -233,7 +233,7 @@ class Theme extends BaseV1\Theme
             $this->enqueueStyle('app', 'remodal-style-css', 'css/modal/style.css');
             $this->enqueueScript('app', 'remodal-js', 'js/modal/remodal.min.js');
             $this->enqueueScript('app', 'remodal-custom', 'js/modal/custom.js');
-            $this->part('modal/active-account');
+            //$this->part('modal/active-account');
         });
         // Verificando se o usuário já aceitou os termos para ocutar o modal
         $app->hook("GET(agent.verify-email)", function () use ($app) {
