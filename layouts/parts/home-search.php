@@ -7,7 +7,7 @@
 
     <?php $this->applyTemplateHook('home-search', 'begin'); ?>
 
-    <div class="box" style="background-color: rgba(8,94,85, 0.3);">
+    <div class="box" style="background-color: rgba(8,94,85, 0.7);">
         <h1><?php echo $app->view->renderMarkdown($this->dict('home: title', false)); ?></h1>
         <p><?php echo $app->view->renderMarkdown($this->dict('home: welcome', false)); ?></p>
         <form id="home-search-form" class="clearfix" ng-non-bindable>
