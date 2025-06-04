@@ -1,6 +1,6 @@
 // Child theme main
 
-@import "variables";
-@import "../../../../BaseV1/assets/css/sass/main";
-@import "print";
-@import "overrides";
+@use "variables";
+@use "../../../../BaseV1/assets/css/sass/main";
+@use "print";
+@use "overrides";
